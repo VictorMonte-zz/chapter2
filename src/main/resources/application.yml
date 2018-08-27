@@ -4,6 +4,7 @@ spring:
 
 service:
   message:
+    type: "simple"
     text: "hello"
 ---
 spring:
@@ -16,4 +17,5 @@ spring:
   profiles: "production"
 service:
   message:
+    type: "advance"
     text: "welcome"
